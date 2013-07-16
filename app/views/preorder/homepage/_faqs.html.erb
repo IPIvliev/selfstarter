@@ -1,10 +1,10 @@
 <div class="gray_background" id="faqs">
   <div class="wrapper clearfix">
-    <h4>Frequently Asked Questions</h4>
+    <h4>Часто задаваемые вопросы</h4>
     <ul>
       <li class=''>
         <details class=''>
-          <summary class=''>How do I setup Amazon Payments?</summary>
+          <summary class=''>Как заказать "продукт"?</summary>
           <p>You'll need to <a href="https://payments.amazon.com/sdui/sdui/accountstatus">create an Amazon Seller Central account</a>. Afterwards, get your access key and secret key from the "Integration" tab on your AWS account. <a href="https://payments.amazon.com/sdui/sdui/helpTab/Checkout-by-Amazon/Advanced-Integration-Help/Using-Your-Access-Key">Click here for more info</a>.
           <br />
           <br />
@@ -19,13 +19,13 @@
       </li>
       <li>
         <details class=''>
-          <summary>How do I edit the FAQ?</summary>
+          <summary>Сколько времени происходит монтаж?</summary>
           <p>The faq is a partial located in <code>app/views/preorder/homepage/_faq.html.erb</code> The <code>summary</code> tag is the title, the <code>p</code> is the body. Make sure to add an <code>li</code> tag for each FAQ entry.</p>
         </details>
       </li>
       <li>
         <details class=''>
-          <summary>How do I change around the images, product name, etc?</summary>
+          <summary>Могу ли я установить стетильник самостоятельно?</summary>
           <p>The best way is in <code>config/settings.yml</code>. It has variables for several different parts, the video, the product name, the call to action button ("Fork Now"), and several more.
           </p>
         </details>
@@ -34,7 +34,7 @@
     <ul class='col2'>
       <li>
         <details class=''>
-          <summary>How do I change the CSS?</summary>
+          <summary>Сколько времени работает лампа?</summary>
           <p>Head over to <code>app/assets/stylesheets/variables.css.scss</code>. It makes it easy to change around the elements used throughout the HTML.
           <br />
           <br />
@@ -43,7 +43,7 @@
       </li>
       <li class=''>
         <details class=''>
-          <summary>Why did you release this?</summary>
+          <summary>Как я могу оплатить светильник?</summary>
           <p>Hardware startups are less welcome on Kickstarter than they were 6 months ago. We needed to roll our own kickstarter, so we did. Other hardware startups probably will too, so we made it easier for them by open sourcing our way of doing it.</p>
         </details>
       </li>
