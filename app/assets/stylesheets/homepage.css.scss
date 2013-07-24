@@ -31,3 +31,77 @@
 	 cursor: pointer;
   }
 }
+
+.smth {
+  visibility: hidden;
+}
+
+.opinions {
+width:100%;
+margin: 20px 0 0 0;
+
+font-size:20px;
+}
+
+.photos {
+height:160px;
+margin:0;
+padding:0;
+list-style:none;
+text-align:center;
+overflow:hidden
+}
+
+.photo {
+display:inline-block;
+padding:0 0 15px;
+vertical-align:top;
+}
+
+.reviewer_photo {
+position:relative;
+width:130px;
+height:155px;
+margin:0 40px;
+-moz-box-shadow:1px 1px 3px 0 rgba(0,0,0,0.9);
+-webkit-box-shadow:1px 1px 3px 0 rgba(0,0,0,0.9);
+box-shadow:1px 1px 3px 0 rgba(0,0,0,0.9);
+}
+
+.opinions_item {
+width:100%;
+margin-top: 20px;
+padding: 15px;
+background:#f6f6f6;
+}
+.opinions_item_author {
+margin:0 0 5px;
+padding:10px 10px 0
+}
+.opinions_item_name {
+margin:0 0 5px;
+}
+.opinions_item_text {
+padding: 0 10px 0 10px;
+line-height: 1.5;
+color: #777;
+  text-shadow: 2px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.opinions_item_text p{
+margin-top: 15px;
+
+}
+
+#ia{
+  display: none;
+}
+
+#pg{
+  display: none;
+}
+
+#ig{
+  display: none;
+}

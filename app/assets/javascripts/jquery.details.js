@@ -4,3 +4,24 @@ b(function(){b("body").on("open.details","details.animated",function(){var a=b(t
 a.prop("open")?a.trigger("close"):a.trigger("open")});else if(b("html").addClass("no-details"),b("head").prepend('<style>details{display:block}summary{cursor:pointer}details>summary::before{content:"\u25ba"}details.open>summary::before{content:"\u25bc"}details:not(.open)>:not(summary){display:none}</style>'),b("body").on("open.details","details",function(a){b(this).addClass("open").trigger("change.details");a.stopPropagation()}).on("close.details","details",function(a){b(this).removeClass("open").trigger("change.details");
 a.stopPropagation()}).on("toggle.details","details",function(a){var c=b(this);c.hasClass("open")?c.trigger("close"):c.trigger("open");a.stopPropagation()}).on("click","summary",function(){b(this).parent().trigger("toggle")}).on("keyup","summary",function(a){(32===a.keyCode||13===a.keyCode&&!b.browser.opera)&&b(this).parent().trigger("toggle")}),b.browser.msie&&9>b.browser.msie)b("body").on("open.details","details",function(){b(this).children().not("summary").show()}).on("close.details","details",
 function(){b(this).children().not("summary").hide()});e(b("details"))})})(jQuery);
+
+$(document).ready(function() {
+
+
+  $(".opinions").on("mouseenter", "#srv", function() {
+  $(this).closest(".opinions").find("#rv").css("display", "block");
+  $(this).closest(".opinions").find("#ia, #pg, #ig").css("display", "none")  });
+
+  $(".opinions").on("mouseenter", "#sia", function() {
+  $(this).closest(".opinions").find("#ia").css("display", "block");
+  $(this).closest(".opinions").find("#rv, #pg, #ig").css("display", "none")  });
+
+  $(".opinions").on("mouseenter", "#spg", function() {
+  $(this).closest(".opinions").find("#pg").css("display", "block");
+  $(this).closest(".opinions").find("#ia, #rv, #ig").css("display", "none")  });
+
+  $(".opinions").on("mouseenter", "#sig", function() {
+  $(this).closest(".opinions").find("#ig").css("display", "block");
+  $(this).closest(".opinions").find("#ia, #pg, #rv").css("display", "none")  });
+
+});
