@@ -1,27 +1,38 @@
-<% if Settings.use_payment_options %>
-  <fieldset>
-    <div class="payment_options">
-      <ol>
-        <% PaymentOption.all.each_with_index do |p, index| %>
-          <li>
-            <%= radio_button_tag "payment_option", p.id, false, class: 'payment_radio', disabled: sold_out(p) %>
-            <%= label_tag("payment_option_#{index}", p.amount_display) %>
-            <div class="shipping">
-              <% if sold_out p %>
-                <span class="sold-out">Sold Out</span>
-              <% end %>
-              <span><%= p.shipping_desc %></span>
-            </div>
-            <div class="description">
-              <p class="full"><%= raw p.description %></p>
-              <% if p.limit > -1 %>
-                <p class="limited"> Уже заказано (<%= p.limit - order_count(p) %> из <%= p.limit %> комплектов)</p>
-              <% end %>
-              <p class="delivery_date"><%= p.delivery_desc %></p>
-            </div>
-          </li>
-        <% end %>
-      </ol>
-    </div>
-  </fieldset>
-<% end %>
+<section>
+  <form>
+    <aside class="left">
+      <ul class="payment">
+        <li class="price">
+          <p>Описание</p>
+          <span>200 рублей.</span>
+        <li class="price">
+          <p>Описание</p>
+          <span>200 рублей.</span>
+        <li class="price">
+          <p>Описание</p>
+          <span>200 рублей.</span>
+        <li class="price">
+          <p>Описание</p>
+          <span>200 рублей.</span>
+      </ul>
+    </aside>
+    <aside class="right">
+
+      <label name="Телефон:">Телефон:</label>
+      <input type="tel" class="inner" placeholder="8-905-191-2323" required>
+
+      <label name="Количество приборов:">Количество приборов:</label>
+      <input type="number" class="inner" placeholder="1" min="0" max="500" required>
+
+      <label name="Адрес:">Адрес:</label>
+      <input type="number" class="inner" placeholder="Куда доставить приборы" required>
+
+      <label name="Почта:">E-mail:</label>
+      <input type="email" class="inner" placeholder="Ваша электронная почта" required>
+
+      <input type="submit">
+
+    </aside>
+
+  </form>
+</section>

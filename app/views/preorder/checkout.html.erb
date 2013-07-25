@@ -1,45 +1,16 @@
 <div class="gray_background">
   <div class="wrapper clearfix">
-    <div class="main_content <%= "payment_options" if Settings.use_payment_options %>">
+    <div class="top_content <%= "payment_options" if Settings.use_payment_options %>">
+<% if Settings.use_payment_options %>
       <h3>Заявка на преобретение "Светильника"</h3>
       <p>
-        Пожалуйста, введите данные для предварительной заявки. Наш менеджер перезвонит вам в ближайшее время для подтверждения заявки.
-        <br />
-        <br />
-        <% if Settings.use_payment_options %>
-          Выберите комплектацию приобретаемого оборудования.
-        <% else %>
-          Введите адрес электронной почты.
-        <% end %>
-
-      </p>
-      <%= form_tag "/preorder/prefill", :id => "checkout" do %>
-        <%= render 'preorder/payment_options' %>
-        <div class="checkout_controls">
-          <div class="checkout_controls_wrapper">
-            <div class="checkout_controls_inner">
-
-<%= label_tag "phone", "Телефон:" %>
-<%= text_field_tag "phone" %>
-<br />
-<%= label_tag "amount", "Количество приборов:" %>
-<%= text_field_tag "amount" %>
-<br />
-<%= label_tag "address", "Адрес доставки / установки приборов" %>
-<%= text_field_tag "address" %>
-
-              <%= email_field_tag "email", nil, :placeholder => "Адрес электронной почты", :required => "required", :id => "email" %>
-              <%= hidden_field_tag "preorder", true %>
-              <%= hidden_field_tag "quantity", params[:quantity] %>
-
-
-              <%= submit_tag "Отправить", :class => "blue_button disabled", :id => "amazon_button" %>
-            </div>
-
-          </div>
-        </div>
-      <% end %>
+        Пожалуйста, введите данные для предварительной заявки. Наш менеджер перезвонит вам в ближайшее время для подтверждения заявки.</p>
     </div>
-    <%= render 'preorder/checkout/sidebar' %>
+        <%= render 'preorder/checkout/sidebar' %>
+    <div class="middle_content">
+          Выберите комплектацию приобретаемого оборудования.
+          <%= render 'preorder/payment_options' %>
+<% end %>
+    </div>
   </div>
 </div>
