@@ -1,0 +1,41 @@
+<div class="big_wrapper">
+  <div class="wrapper" >
+	<h4>Калькулятор экономии</h>
+    <form name="cl_form"> 
+      <div class="demo">
+
+      <fieldset>
+        <label for="amount">Сколько ламп установленно в вашем доме?</label>
+
+      </fieldset>
+      <fieldset>
+        <label for="amount">Кол-во подъездов:</label>
+        <input type="number" id="amount" onchange="calc(this.value);"  />
+      </fieldset>
+      <fieldset>
+        <label for="amount">Кол-во этажей:</label>
+        <input type="number" id="amount" onchange="calc(this.value);"  />
+      </fieldset>
+      <fieldset>
+        <label for="amount">Виберите место установки осветительного прибора:</label><br>
+        <input type="radio" onchange="calc(this.value);" name="amount" />Светильник установлен на каждом этаже<br>
+        <input type="radio" onchange="calc(this.value);" name="amount" />Светильник установлен на этаже и лестничной площадке
+      </fieldset>
+      <div id="slider-range-max"></div>
+      <fieldset>
+        <label for="amount2">Скольки киловатные лампы установленны в вашем доме?</label>
+        <input type="number" id="amount2" onchange="calc(this.value);" />
+      </fieldset>
+      <div id="slider-range-max2"></div>
+      <fieldset>
+        <label for="summ">При использовании "Спектра" экономия электроэнергии в год составит*:</label>
+        <input value="0" name="summ" readonly="readonly" maxlength="10" size="5" type="text">
+      </fieldset>
+
+        <div>
+          *Сумма является ориентировочной и расчитана исходя из тарифа 1.27 руб. при работе лампы 10 часов в сутки.
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
