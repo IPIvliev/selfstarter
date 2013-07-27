@@ -4,7 +4,7 @@ ruby '1.9.3'
 
 gem 'rails', '3.2.13'
 gem 'json', '~> 1.7.7'
-gem 'jquery-ui-rails'
+
 
 group :development do
   gem 'sqlite3'

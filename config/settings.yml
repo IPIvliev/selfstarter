@@ -12,7 +12,7 @@ project_goal: 100000
 # If you want to edit the FAQ, head over to app/views/preorder/homepage/_faqs.html.erb
 
 # This'll be both the page title (<title></title>) and the name in the header
-product_name: "СПЕКТР"
+product_name: "Светодиодное освещение для ЖКХ"
 
 # This will be used in sentences like Hooray You've just reserved product_description
 product_description: "a set of widgets"
@@ -22,11 +22,11 @@ product_description: "a set of widgets"
 product_image_path: "my-product-image.png"
 
 # The message on the preorder page, Lockitron's is ""
-value_proposition: "Сделаем мир светлее"
+value_proposition: "Надёжно, выгодно, доступно!"
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
 # Replace /embed/ in your video url path with /v/ for video playback to work.
-video_embed_url: "https://www.youtube.com/v/D1L3o88GKew"
+video_embed_url: "https://www.youtube.com/v/D8GKew"
 
 # If set to true, then the image at "/assets/video_placeholder.png" will be shown in place of the youtube
 # video.  When the user clicks it, the vid will replace the image and start playing.
@@ -73,7 +73,7 @@ primary_stat: "клиенты"
 primary_stat_verb: 'backer'
 
 # The 2nd call to action button, towards the middle-ish of the page
-middle_reserve_text: "Сделать предзаказ"
+middle_reserve_text: "Сделать заказ"
 
 # When the project should end
 expiration_date: <%= DateTime.now + 29 %>
@@ -84,15 +84,19 @@ progress_text: "Implemented"
 # Call to action section
 
 # On Lockitron, it's "First Batch Ships in March 2013"
-ships: "Закажи сейчас!"
+ships: "Действует акция!"
 
 # On Lockitron, it's "Reserve Now"
-call_to_action: "Предзаказ"
+call_to_action: "Закажи сейчас"
+
 # On Lockitron, this is "Only $149 for a limited time"
-price_human: "Всего 2 000 рублей!"
+up_price_human: "1 700 рублей"
+
+# On Lockitron, this is "Only $149 for a limited time"
+price_human: "Всего 1 200 рублей!"
 
 # The paragraph below the price. You'd probably say something about how you're not going to charge them before it ships (so it's less risky).
-dont_give_them_a_reason_to_say_no: "В стоимость входит монтаж и настройка. А также полная гарантия на 3 года!"
+dont_give_them_a_reason_to_say_no: "В стоимость входит монтаж и настройка, а также полная гарантия на 3 года!"
 
 # Social Stuff
 facebook_app_id: "1234567890"

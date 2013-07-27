@@ -5,6 +5,7 @@ a.prop("open")?a.trigger("close"):a.trigger("open")});else if(b("html").addClass
 a.stopPropagation()}).on("toggle.details","details",function(a){var c=b(this);c.hasClass("open")?c.trigger("close"):c.trigger("open");a.stopPropagation()}).on("click","summary",function(){b(this).parent().trigger("toggle")}).on("keyup","summary",function(a){(32===a.keyCode||13===a.keyCode&&!b.browser.opera)&&b(this).parent().trigger("toggle")}),b.browser.msie&&9>b.browser.msie)b("body").on("open.details","details",function(){b(this).children().not("summary").show()}).on("close.details","details",
 function(){b(this).children().not("summary").hide()});e(b("details"))})})(jQuery);
 
+/* Переключение отзывов */
 $(document).ready(function() {
 
 
@@ -25,6 +26,9 @@ $(document).ready(function() {
   $(this).closest(".opinions").find("#ia, #pg, #rv").css("display", "none")  });
 
 });
+
+/* Калькулятор экономии*/
+
 
 $(document).ready(function() {
 
@@ -70,3 +74,4 @@ $(document).ready(function() {
   document.getElementById("summ").innerHTML=summ;
   return false; 
   }
+

@@ -102,3 +102,52 @@ body.lt-ie9
     height: 20px !important;
   }
 }
+
+
+
+#timer_wrap {
+  height:65px;
+  width:360px;
+  margin: 0 auto;
+margin-top: 10px;
+
+#hour,#min,#sec,#day {
+  float:left;
+  padding:5px;
+
+  position:relative;
+  display:block;
+  .timetext {
+    margin:0px;
+    padding:0px;
+    width:24px;
+    height:55px;
+    float:left;
+    font-weight:bold;
+    position:absolute;
+  }
+#sec1,#min1,#hour1,#day1 {
+  margin-left:12px;
+}
+.datetext {
+
+  margin-left:35px;
+}
+}
+
+
+#clock {
+  border:1px solid red;
+  border-radius:10px;
+  width:310px;
+  padding:0px 20px 0px 20px;
+  position:absolute;
+}
+#stop {
+  color:white;
+  font-size:50px;
+  margin:15px 10px 10px 25px;
+  position:absolute;
+}
+}
+

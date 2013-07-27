@@ -1,6 +1,10 @@
 #lockitron_header
 {
   border: none;
+  float: left;
+  width: 700px;
+  position: relative;
+  margin-left: 10px !important;
   a
   {
     border: none !important;
@@ -51,7 +55,15 @@ margin-top:3px
 
 .nav_link{font-family:"ProximaNova-Semibold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;color:#8B8A8A;padding-right:20px;font-size:18px;margin-top:12px;float:left}
 
-.nav_link .count{margin-left:3px;margin-top:-5px;padding:5px 8px;font-size:14px;border-radius:5px;background:#0E96E4;text-shadow:none;color:white}
+.nav_link .count {
+  margin-left:3px;
+  margin-top:-5px;
+  padding:5px 8px;
+  font-size:28px;
+  border-radius:5px;
+  background:#0E96E4;
+  text-shadow:none;
+  color:white}
 
 .nav_link:hover{text-decoration:none;color:#333}
 
