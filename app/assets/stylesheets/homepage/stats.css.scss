@@ -105,49 +105,45 @@ body.lt-ie9
 
 
 
-#timer_wrap {
+#timer_wrap
+{
   height:65px;
-  width:360px;
+  width:340px;
   margin: 0 auto;
-margin-top: 10px;
+  margin-top: 10px;
 
-#hour,#min,#sec,#day {
-  float:left;
-  padding:5px;
-
-  position:relative;
-  display:block;
-  .timetext {
-    margin:0px;
-    padding:0px;
-    width:24px;
-    height:55px;
+  #hour,#min,#sec,#day {
     float:left;
-    font-weight:bold;
+    padding:5px;
+    position:relative;
+    display:block;
+    .timetext {
+      width:24px;
+      height:55px;
+      float:left;
+      font-weight:bold;
+      position:absolute;
+    }
+
+    #sec1,#min1,#hour1,#day1 {
+      margin-left:12px;
+    }
+    
+    .datetext {
+      margin-left:35px;
+    }
+  }
+
+  #clock {
+    border-radius:10px;
+    width:340px;
+    padding:0px 20px 0px 20px;
     position:absolute;
   }
-#sec1,#min1,#hour1,#day1 {
-  margin-left:12px;
+  #stop {
+    color:white;
+    font-size:50px;
+    margin:15px 10px 10px 25px;
+    position:absolute;
+  }
 }
-.datetext {
-
-  margin-left:35px;
-}
-}
-
-
-#clock {
-  border:1px solid red;
-  border-radius:10px;
-  width:310px;
-  padding:0px 20px 0px 20px;
-  position:absolute;
-}
-#stop {
-  color:white;
-  font-size:50px;
-  margin:15px 10px 10px 25px;
-  position:absolute;
-}
-}
-

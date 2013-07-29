@@ -1,21 +1,40 @@
-#faqs {
-  padding-bottom: 30px;
-  border-bottom: 1px solid #dfdfdf;
-  ul {
-    margin-top: 50px;
-    float: left;
-    width: 50%;
-    li
-    {
-      width: 400px;
-      margin: 0 49px 30px 0;
-      padding-left: 18px;
-      background: url(image_path("bullet.png")) no-repeat left 8px;
-      p {
-        margin-top: 10px;
-        line-height: 1.4;
-        font-size: 18px;
-      }
+#calculator {
+  
+  .main {
+    font-size: 26px;
+    display: block;
+  }
+
+  .amount_fone {
+    margin: 20px 0;
+    display: block;
+    float: right;
+    background: #000;
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+
+  }
+    #amount {
+border-radius: 10px;
+padding-left: 10px;
+      margin: 0 auto ;
+      margin-top: 8px;
+      width: 420px;
+      display: block;
+  }
+
+  p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  #result {
+    margin: 10px;
+    text-align: center;
+
+      span {
+
     }
   }
 }
