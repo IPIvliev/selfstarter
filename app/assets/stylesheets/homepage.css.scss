@@ -907,3 +907,364 @@ vertical-align: baseline;
 width: auto;
   }
 }
+
+
+.white-card {
+  -webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+-webkit-box-shadow: rgb(180, 182, 169) 0px 1px 4px 1px, rgb(255, 255, 255) 2px 2px 1px 0px inset;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgb(255, 255, 255);
+background-image: none;
+background-origin: padding-box;
+background-repeat: repeat;
+background-size: auto;
+box-shadow: rgb(180, 182, 169) 0px 1px 4px 1px, rgb(255, 255, 255) 2px 2px 1px 0px inset;
+color: rgb(79, 78, 76);
+display: block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 300;
+height: 600px;
+line-height: 20px;
+margin-bottom: 20px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+width: 1170px;
+
+.pricing-table {
+color: rgb(79, 78, 76);
+display: block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 300;
+height: 580px;
+line-height: 20px;
+padding-top: 20px;
+width: 1170px;
+
+
+.first-plan{
+border-left-color: rgb(79, 78, 76);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(238, 238, 238);
+border-right-style: solid;
+border-right-width: 1px;
+color: rgb(79, 78, 76);
+display: block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 300;
+height: 540px;
+line-height: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+text-align: center;
+width: 340px;
+
+}
+}
+}
+.plan-name {
+  border-bottom-color: rgb(221, 221, 221);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+color: rgb(79, 78, 76);
+display: block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 32px;
+font-weight: 300;
+height: 20px;
+line-height: 20px;
+margin-bottom: 20px;
+padding-bottom: 20px;
+text-align: center;
+text-transform: uppercase;
+width: 340px;
+}
+
+.plan-price-first{
+  border-bottom-color: rgb(238, 238, 238);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+color: rgb(79, 78, 76);
+display: block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 300;
+height: 109px;
+line-height: 20px;
+margin-bottom: 15px;
+padding-bottom: 20px;
+text-align: center;
+width: 340px;
+}
+
+.row {
+  color: rgb(79, 78, 76);
+display: block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 300;
+height: 580px;
+line-height: 20px;
+margin-left: -30px;
+width: 1200px;
+
+.span3 {
+color: rgb(79, 78, 76);
+display: block;
+float: left;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 300;
+height: 580px;
+line-height: 20px;
+margin-top: 25px;
+margin-left: 30px;
+min-height: 1px;
+width: 360px;
+}
+}
+
+
+pricing-plan-w {
+  border-left-color: rgb(238, 238, 238);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(238, 238, 238);
+border-right-style: solid;
+border-right-width: 1px;
+color: rgb(79, 78, 76);
+display: block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 300;
+height: 540px;
+line-height: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+text-align: center;
+width: 340px;
+}
+
+.plan-price-desc {
+  color: rgb(179, 216, 207);
+display: block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 300;
+height: 20px;
+line-height: 20px;
+margin-bottom: 5px;
+text-align: center;
+text-transform: lowercase;
+width: 340px;
+}
+
+.plan-price {
+  color: rgb(79, 78, 76);
+display: block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 300;
+height: 84px;
+line-height: 84px;
+text-align: center;
+width: 340px;
+}
+
+.plan-desc {
+  color: rgb(79, 78, 76);
+display: block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 300;
+height: 334px;
+line-height: 20px;
+text-align: center;
+width: 340px;
+
+ul {
+  color: rgb(79, 78, 76);
+display: block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 300;
+height: 164px;
+line-height: 20px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+margin-bottom: 20px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+text-align: center;
+width: 340px;
+
+li {
+  border-bottom-color: rgb(238, 238, 238);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+color: rgb(79, 78, 76);
+display: list-item;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 300;
+height: 20px;
+line-height: 20px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+padding-bottom: 10px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 10px;
+text-align: center;
+width: 340px;
+
+strong {
+  background-color: rgb(234, 245, 249);
+color: rgb(79, 78, 76);
+display: inline;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: bold;
+height: auto;
+line-height: 20px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+text-align: center;
+width: auto;
+}
+}
+}
+
+p {
+  background-color: rgb(254, 251, 238);
+border-bottom-color: rgb(234, 222, 177);
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(234, 222, 177);
+border-left-style: solid;
+border-left-width: 2px;
+border-right-color: rgb(234, 222, 177);
+border-right-style: solid;
+border-right-width: 2px;
+border-top-color: rgb(234, 222, 177);
+border-top-style: solid;
+border-top-width: 2px;
+color: rgb(151, 138, 85);
+display: block;
+font-family: Abel, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 300;
+height: 60px;
+line-height: 20px;
+margin-bottom: 20px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+text-align: center;
+width: 310px;
+}
+
+.btn-primary {
+  -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0470588) 0px 1px 2px 0px;
+background-color: rgb(120, 124, 113);
+background-image: linear-gradient(rgb(125, 129, 118), rgb(112, 116, 106));
+background-repeat: repeat-x;
+border-bottom-color: rgba(0, 0, 0, 0.247059);
+border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgba(0, 0, 0, 0.0980392);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgba(0, 0, 0, 0.0980392);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: rgba(0, 0, 0, 0.0980392);
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+border-top-style: solid;
+border-top-width: 1px;
+box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0470588) 0px 1px 2px 0px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: inline-block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 19px;
+font-weight: 300;
+height: 22px;
+line-height: 22px;
+margin-bottom: 0px;
+padding-bottom: 11px;
+padding-left: 19px;
+padding-right: 19px;
+padding-top: 11px;
+text-align: center;
+text-decoration: none;
+text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+vertical-align: middle;
+width: 105px;
+}
+}
+
+
+.price-self {
+  color: rgb(79, 78, 76);
+display: inline-block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 72px;
+font-weight: 300;
+height: 84px;
+line-height: 84px;
+text-align: center;
+vertical-align: bottom;
+
+}
+
+.price-period {
+color: rgb(179, 216, 207);
+display: inline-block;
+font-family: Oswald, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: 300;
+margin-left: 10px;
+height: 84px;
+line-height: 84px;
+text-align: left;
+vertical-align: bottom;
+
+}
