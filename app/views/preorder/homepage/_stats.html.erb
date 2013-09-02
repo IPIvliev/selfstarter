@@ -1,66 +1,38 @@
-<div class="wrapper clearfix">
-  <div id="video">
-    <% if Settings.use_video_placeholder %>
-      <div id="video_image">
-        <img alt="video_place_holder" width='512px' height='385px' src="/assets/video_placeholder.png" />
-      </div>
-      <div id="player" class="hidden" style="display: none;">
-        <object width="512" height="385">
-          <param name="movie" value="<%= Settings.video_embed_url %>?autohide=1&showinfo=0&rel=0&autoplay=1" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="<%= Settings.video_embed_url %>?autohide=1&showinfo=0&rel=0&autoplay=1" type="application/x-shockwave-flash" width="512" height="385" allowscriptaccess="always" allowfullscreen="true"></embed>
-        </object>
-      </div>
-    <% else %>
-      <iframe width='512' height='385' src="<%= video_url %>"></iframe>
-    <% end %>
-  </div>
+<div class="order">
+<div class="wrapper clearfix form">
 
-  <div id="backing">
 
-   <div id="reserve_container">
-      <p>До окончания акции осталось: </p>
 
-      <div id="timer_wrap">
-        <div id="clock">
-          <div id='day'>
-            <span class="timetext" id='day0'></span>
-            <span class="timetext" id='day1'></span>
-            <span class="datetext">дн.</span>
-          </div>
-
-          <div id='hour'>
-            <span class="timetext" id='hour0'></span>
-            <span class="timetext" id='hour1'></span>
-            <span class="datetext">ч.</span>
-          </div>
-
-          <div id='min'>
-            <span class="timetext" id='min0'></span>
-            <span class="timetext" id='min1'></span>
-            <span class="datetext">мин.</span>
-          </div>
-          <div id="razd">
-            
-          </div>
-          <div id='sec'>
-            <span class="timetext" id='sec0'></span>
-            <span class="timetext" id='sec1'></span>
-            <span class="datetext">сек.</span>
+        <div class="bid">
+          <div>
+            <form action="simple_mail.php" target="iform" method="POST" onsubmit="return check(this);">
+              <input type="text" placeholder="Введите имя" name="fullname" />
+              <input type="text" placeholder="Введите телефон" name="phone" />
+              <input type="text" placeholder="Введите е-мейл" name="email" />
+              <input type="submit" value="Закажите" class="button" id="order011" onclick="yaCounter21611659.reachGoal('order011_3'); return true;"/>
+            </form>
+            <span>Ваши контактные данные в безопасности<br />и не будут переданы третьим лицам</span>
           </div>
         </div>
-      </div>
+        <p>Закажите светодиодный<br>светильник для подъездов<br> с установкой <span class="new">от 1300 рублей</span><br>прямо сейчас!<br></p>
+        <div class="timer">
+          <div class="tbg"></div>
+          <span>До конца акции осталось:</span>
+            <div class='hour'>
+              <p class='hour0'>1</p><p class='hour1'>2</p>
+            </div>
+            час.
+            <div class='min'>
+              <p class='min0'>3</p><p class='min1'>7</p>
+            </div>
+            мин.
+            <div class='sec'>
+              <p class='sec0'>4</p><p class='sec1'>5</p>
+            </div>
+            сек.
+        </div>
+        <span class="hurry">Успейте сделать заказ до конца акции!</span>
+        <div class="clear"></div>
 
-
-
-      <p id="ship_date"><%= Settings.ships %></p>
-      <a href="/preorder/checkout" class="blue_button reserve"><%= Settings.call_to_action %></a>
-      <p id="price"><span><%= Settings.up_price_human %></span><%= Settings.price_human %></p>
-      <p><%= Settings.dont_give_them_a_reason_to_say_no %></p>
-      <%= like_button %>
-    </div>
-    
-  </div>
-  
+ </div> 
 </div>
